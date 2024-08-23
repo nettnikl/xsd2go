@@ -239,6 +239,14 @@ type DsakeyValue struct {
 	Y CryptoBinary `xml:"Y"`
 
 	J *CryptoBinary `xml:"J"`
+
+	P CryptoBinary `xml:"P"`
+
+	Q CryptoBinary `xml:"Q"`
+
+	Seed CryptoBinary `xml:"Seed"`
+
+	PgenCounter CryptoBinary `xml:"PgenCounter"`
 }
 
 // Element
@@ -468,6 +476,14 @@ type DsakeyValueType struct {
 	Y CryptoBinary `xml:"Y"`
 
 	J *CryptoBinary `xml:"J"`
+
+	P CryptoBinary `xml:"P"`
+
+	Q CryptoBinary `xml:"Q"`
+
+	Seed CryptoBinary `xml:"Seed"`
+
+	PgenCounter CryptoBinary `xml:"PgenCounter"`
 }
 
 type RsakeyValueType struct {
